@@ -1,6 +1,6 @@
 {
   "title": "Overscouting",
-  "page_title": "Overreefscape - Data",
+  "page_title": "Overreefscape - Datav3.1",
   "delimiter": "\t",
   "teamNumber": 7421,
   "theme": {
@@ -78,6 +78,23 @@
           "code": "matchNumber",
           "formResetBehavior": "increment",
           "defaultValue": 1
+        },
+        {
+          "title": "Robot",
+          "description": "The robot you are scouting this match, based on driver station position.",
+          "type": "select",
+          "required": true,
+          "code": "robot",
+          "formResetBehavior": "preserve",
+          "defaultValue": "R1",
+          "choices": {
+            "R1": "Red 1",
+            "R2": "Red 2",
+            "R3": "Red 3",
+            "B1": "Blue 1",
+            "B2": "Blue 2",
+            "B3": "Blue 3"
+          }
         },
         {
           "title": "Future Alliance in Qualy?",
